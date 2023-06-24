@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rodrigoaceroExamen.resumen">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Entry">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="BackgroundColor" Value="Green"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lblUsuario" TextColor="Red" FontSize="16" HorizontalTextAlignment="End"/>
+            <Label Text="Ventana 3" HorizontalTextAlignment="Center" TextColor="Blue" FontSize="24" />
+            <Entry x:Name="txtdato" IsReadOnly="True"/>
+            <Entry x:Name="txtEstudiante" IsReadOnly="True"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
